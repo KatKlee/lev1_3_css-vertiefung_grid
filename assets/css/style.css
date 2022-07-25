@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    display: grid;
+    grid-template-columns: 20vw 80vw;
+    grid-template-rows: 10vh 75vh 5vh;
+    gap: 2px;
+}
+
+header {
+    background-color: blue;
+    grid-column: 1 / span 2;
+}
+
+aside {
+    background-color: green;
+    grid-column: 1 / span 1;
+}
+
+main {
+    background-color: red;
+    grid-column: 2 / span 1;
+}
+
+footer {
+    background-color: purple;
+    grid-column: 1 / span 2;
+}
